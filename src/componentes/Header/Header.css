@@ -1,0 +1,30 @@
+.cabecalho--container{
+    background-color: var(--vermelho);
+    width: 100dvw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho--container-logo img{
+    width: 7em;
+}
+
+.cabecalho--container-menu{
+
+    align-content: center;
+    height: 100%;
+    cursor: pointer;
+    margin-right: min(1.5em, 8%);
+}
+
+.menu-lines{
+    
+    background-color: #fff;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+}
