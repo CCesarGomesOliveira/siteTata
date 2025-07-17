@@ -3,12 +3,12 @@
     flex-direction: row;
     flex-wrap: nowrap;
     width: 350px;
-    height: 350px;
+    height: 450px;
     justify-content: center;
 }
 
 .cardDoces--card{
-    height: 350px;
+    height: 450px;
     width: 250px;
     background-color: var(--bege-escuro);
     border-radius: 12px;
@@ -17,8 +17,17 @@
 
 .cardDoces--container {
   min-width: 250px; /* largura mínima do card */
-  flex: 0 0 400px;
+  flex: 0 0 388px;
   scroll-snap-align: start; /* (opcional) para encaixe suave no scroll */
+  justify-items: center;
+}
+
+.cardDoces--container img {
+    position: relative;
+    top: 20px;
+    left: 25px;
+    width: 200px;
+    border-radius: 13px;
 }
 
 .doce--nome{
