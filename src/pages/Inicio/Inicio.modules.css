@@ -1,0 +1,196 @@
+.inicio--container{
+    margin: 52px 0 ;
+}
+
+
+.inicio--container-textos-h1{
+    padding: 0 3dvw;
+    font-size: clamp(0.7rem, 1.75rem, 4rem);
+    text-align: center;
+    font-family:  var(--titulo-3);
+    font-weight: 600;
+}
+
+.inicio--container-textos-h1 span{
+    font-size: clamp(1rem, 4rem, 5rem);
+}
+
+
+.inicio--container-textos-p{
+    padding: 0 1rem;
+    margin-top: 3%;
+    font-family: var(--textos);
+    text-align: center;
+    font-size: 22px;
+}
+
+.botao--container{
+    display: flex;
+    margin: 20% 0 0 0;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.doces--container{
+      display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 540px;
+    margin-top: 15.5%;
+     padding-bottom: 10%;
+    overflow-x: auto;
+     scroll-snap-type: x mandatory;
+     justify-content: start;
+     align-items: center;
+}
+
+
+.cardDocescontainer {
+    
+  min-width: 250px; 
+  flex: 0 0 300px;
+  scroll-snap-align: start; 
+  justify-items: center;
+ 
+}
+
+.cardDocescontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardDocescontainer-link{
+    display: flex;
+    padding: 8px;
+    width: 235px;
+    position: relative;
+    left: 50px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    
+  
+}
+
+.cardDocescontainer-link:active{
+    display: flex;
+    padding: 8px;
+    width: 235px;
+    position: relative;
+    left: 50px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgb(0, 96, 160) 3px 3px 6px 0px inset, rgba(2, 96, 160, 0.5) -3px -3px 6px 1px inset;
+  
+}
+
+@media screen and (min-width:1024px) {
+
+    .inicio--container{
+    margin: 52px 0 ;
+}
+
+    .inicio--container-textos-h1{
+    padding: 0 10rem;
+    font-size: clamp(0.7rem, 5rem, 10rem);
+    text-align: center;
+    font-family:var(--titulo-3);
+    font-weight: 800;
+    
+}
+
+.inicio--container-textos-h1 span{
+    font-size: clamp(1rem, 7.5rem, 9rem);
+}
+
+
+.inicio--container-textos-p{
+    font-size: 30px;
+    padding: 0 19rem;
+    margin-top: 5%;
+    font-family: var(--textos);
+    text-align: center;
+}
+
+
+.botao--container{
+    margin: 5% 0 0 0;
+    justify-self: center;
+    
+}
+
+.doces--container{
+      display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 50%;
+    min-height: 340px;
+    margin: 5% 0;
+    z-index: 1;
+}
+
+.doces--container::after{
+   
+  content: '';
+    position: absolute;
+  top: 485px;
+  right: 400px;
+  width: 100px; 
+  height: 46%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 227, 149));
+  pointer-events: none;
+  z-index: -1; 
+}
+
+.cardDocescontainer-link{
+    display: flex;
+    padding: 8px;
+    margin-top: 5%;
+    width: 235px;
+    position: relative;
+    left: 25px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    
+  
+}
+
+.cardDocescontainer-link:active{
+    display: flex;
+    padding: 8px;
+    width: 235px;
+    position: relative;
+    left: 25px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgb(0, 96, 160) 3px 3px 6px 0px inset, rgba(2, 96, 160, 0.5) -3px -3px 6px 1px inset;
+  
+}
+
+
+}

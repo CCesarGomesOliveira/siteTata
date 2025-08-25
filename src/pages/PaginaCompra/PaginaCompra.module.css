@@ -1,0 +1,56 @@
+.secaoDoce{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    margin: 20% 45px;
+}
+
+.secaoDoce img {
+    width: 300px;
+    border-radius: 12px;
+
+}
+
+.secaoDoce h3{
+    color: #000;
+    font-family: var(--patua);
+    font-size: 48px;
+}
+
+.secaoDoce p {
+    font-family: var(--textos);
+    font-size: 20px;
+}
+
+.secaoDoce button {
+      display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+
+
+.secaoDoce button:active {
+      display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    font-family: var(--patua);
+    font-size: 28px;
+    color: #fff;
+    background-color: #20C6F8;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: rgb(0, 96, 160) 3px 3px 6px 0px inset, rgba(2, 96, 160, 0.5) -3px -3px 6px 1px inset;
+    
+}

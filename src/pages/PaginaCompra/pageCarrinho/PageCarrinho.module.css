@@ -1,0 +1,44 @@
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    height: 85vh;
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 46px;
+    font-family: var(--titulo-3);
+    font-weight: 700;
+    align-self: center;
+}
+
+.produtoContainer{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.infos{
+    margin-left: 20px;
+}
+
+.actions{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.actions img{
+    width: 45px;
+}
+
+.imagem {
+    width: 100px;
+    border-radius: 12px;
+}

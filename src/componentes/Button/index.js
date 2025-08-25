@@ -1,12 +1,9 @@
-import './Button.css';
+import styles from './Button.module.css';
 
 const Button = ({children, onClick, type = 'button', className}) => {
-        
-    
-
     return (
         <button 
-            className={className}
+            className={styles[className]}
             type={type}
             onClick={onClick}>
                 {children}

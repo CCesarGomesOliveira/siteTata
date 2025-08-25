@@ -13,7 +13,10 @@
 
     --titulo: 'Cormorant Garamont', sans-serif;
     --textos: 'Quattrocento Sans', sans-serif;
+	--textos-2: "Baskervville", serif;
     --patua: 'Patua One', serif;
+	--titulo-2: "Pathway Gothic One", sans-serif;
+	--titulo-3: "Kosugi Maru", sans-serif;
 
 }
 
@@ -63,6 +66,7 @@ table {
 }
 
 body {
-  background-color: var(--fundo);
+  background-image: linear-gradient(to bottom right, #E0D8D0,  #fff9f9 70%);
 }
+
 

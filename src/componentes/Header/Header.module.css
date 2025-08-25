@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--vermelho);
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logoImg {
+    width: 123px;
+
+}
+
+.cartIcon{
+    width: 40px;
+}
+
+.cartItem{
+    width: 45px;
+}
+
+.cartQuant{
+    position: relative;
+    bottom: 37px;
+    left: 11px
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    max-width: 70px;
+    font-size: 20px;
+    font-family: var(--patua);
+    line-height: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+    .links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: var(--patua);
+    line-height: 18px;
+}
+
+.link:last-child{
+    padding-left: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: var(--patua);
+    line-height: 18px;
+}
+
+
+}
